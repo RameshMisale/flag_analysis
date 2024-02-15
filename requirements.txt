@@ -1,5 +1,3 @@
-Image
-ast
 scikit-learn
 pillow
 numpy
