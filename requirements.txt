@@ -1,14 +1,10 @@
-ast
-Image
 scikit-learn
+streamlit
 pillow
 numpy
 pandas
-seaborn
-datetime
 plotly
 matplotlib
 joblib
-streamlit
-requests
-
+ast
+Image
