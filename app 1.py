@@ -3,7 +3,7 @@ import pandas as pd
 from PIL import Image
 import ast
 
-flag_data = pd.read_csv(r"C:\Users\RameshMisale\Downloads\overallanalysis 3 1.csv")
+flag_data = pd.read_csv("overallanalysis 3 1.csv")
 all_keywords = sorted(set(flag_data['Keyword'].tolist())) 
 st.set_page_config(page_title='Flag Data Viewer', layout='wide', initial_sidebar_state='expanded')
 logo = Image.open('Logo.jpg')  
